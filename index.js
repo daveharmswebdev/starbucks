@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello GCP World from Dave Harms!');
+  res.send('Hello GCP World from Dave Harms! I have a trigger.');
 });
 
 const port = 3000;
